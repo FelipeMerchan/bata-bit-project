@@ -29,3 +29,24 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
 }
+
+main {
+  inline-size: 100%;
+  block-size: auto;
+  background-color: var(--offWhite);
+}
+
+.main-exchange-container {
+  inline-size: 100%;
+  block-size: auto;
+  padding-block-start: 80px;
+  padding-block-end: 30px;
+  text-align: center;
+}
+
+.main-exchange-container__title {
+  inline-size: 90%;
+  min-inline-size: 28.8rem;
+  max-inline-size: 90rem;
+  margin: 0 auto;
+}
