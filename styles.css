@@ -230,3 +230,20 @@ main {
 .currency-table__container .up {
   background-image: url('./assets/icons/trending-up.svg');
 }
+
+.currency-table__date {
+  inline-size: 19rem;
+  block-size: 3rem;
+  margin: 0 auto;
+  padding: .8rem;
+  background-color: var(--softOrange);
+  border-radius: .8rem;
+}
+
+.currency-table__date p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: var(--warmBlack);
+}
