@@ -155,7 +155,6 @@ main {
   inline-size: 70%;
   min-inline-size: 23.5rem;
   max-inline-size: 50rem;
-  block-size: 36rem;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
