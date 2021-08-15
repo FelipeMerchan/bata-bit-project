@@ -39,13 +39,15 @@ header {
   min-inline-size: 32rem;
   block-size: 33.4rem;
   text-align: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  background: linear-gradient(
+    207.8deg, #201E1C 16.69%,
+    #F7931A 100%
+  );
 }
 
 header img {
-  inline-size: 15rem;
+  inline-size: 15.1rem;
   block-size: 2.4rem;
-  margin-block-start: 6rem;
   align-self: center;
 }
 
@@ -53,7 +55,7 @@ header img {
   inline-size: 90%;
   min-inline-size: 28.8rem;
   max-inline-size: 90rem;
-  margin-block-start: 4rem;
+  margin-block-start: 3rem;
   text-align: center;
   align-self: center;
 }
@@ -71,4 +73,32 @@ header img {
   color: var(--softOrange);
   font-weight: 500;
   line-height: 1.8rem;
+}
+
+.header__title-container .header__button {
+  position: absolute;
+  top: 27rem;
+  left: calc(50% - 115px);
+  display: block;
+  margin-block-start: 3.5rem;
+  padding: 1.5rem;
+  inline-size: 22.9rem;
+  block-size: 4.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--offWhite);
+  /* Shadow */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, .16);
+  border: none;
+  border-radius: .5rem;
+}
+
+.header__button span {
+  display: inline-block;
+  inline-size: 13px;
+  block-size: 8px;
+  margin-inline-start: 10px;
+  background-image: url('./assets/icons/down-arrow.svg');
 }
