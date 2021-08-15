@@ -1,0 +1,31 @@
+/*
+  1. Position
+  2. Box model
+  3. Typography
+  4. Visual
+  5. Other
+*/
+
+:root {
+  /*Colors*/
+  --bitcoinOrange: #F7931A;
+  --softOrange: #FFE9D5;
+  --secondaryBlue: #1A9AF7;
+  --softBlue: #E7F5FF;
+  --warmBlack: #201E1C;
+  --black: #282623;
+  --grey: #BABABA;
+  --offWhite: #FAF8F7;
+  --justWhite: #FFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
