@@ -123,3 +123,30 @@ main {
   max-inline-size: 90rem;
   margin: 0 auto;
 }
+
+.main-exchange-container .backgroundImg {
+  inline-size: 20rem;
+  block-size: 20rem;
+  margin: 0 auto;
+  margin-block-end: 5rem;
+  background-image: url('./assets/img/bitcoin.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-exchange-container h2 {
+  margin-block-end: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.main-exchange-container p {
+  margin-block-end: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
