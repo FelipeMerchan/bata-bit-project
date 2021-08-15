@@ -29,3 +29,30 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
 }
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  inline-size: 100%;
+  min-inline-size: 32rem;
+  block-size: 33.4rem;
+  text-align: center;
+}
+
+header img {
+  inline-size: 15rem;
+  block-size: 2.4rem;
+  margin-block-start: 6rem;
+  align-self: center;
+}
+
+.header__title-container {
+  inline-size: 90%;
+  min-inline-size: 28.8rem;
+  max-inline-size: 90rem;
+  margin-block-start: 4rem;
+  text-align: center;
+  align-self: center;
+}
