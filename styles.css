@@ -262,7 +262,7 @@ main {
   left: calc(50% - 2rem);
   inline-size: 4rem;
   block-size: 2.5rem;
-  background-image: url('./assets/icons/batata.svg');,
+  background-image: url('./assets/icons/batata.svg');
 }
 
 .product-details__title {
@@ -294,7 +294,7 @@ main {
   inline-size: 90%;
   min-inline-size: 28.8rem;
   max-inline-size: 40rem;
-  block-size: 15rem;
+  min-block-size: 15rem;
   margin: 0 auto 1.5rem;
   padding: 1.5rem;
   background-color: var(--black);
@@ -341,4 +341,23 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
+}
+
+.bitcoin-img-container {
+  inline-size: 100%;
+  min-inline-size: 32rem;
+  height: 50vh;
+  text-align: center;
+  background-image: url('./assets/img/bitcoinbaby2x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bitcoin-img-container h2 {
+  padding-block-start: 6rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--justWhite);
 }
