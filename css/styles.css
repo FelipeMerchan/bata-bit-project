@@ -462,6 +462,10 @@ main {
   border-radius: .8rem;
 }
 
+.plans-card__info-container > div {
+  min-block-size: 15rem;
+}
+
 .plans-card__title {
   padding-block-start: 3rem;
   font-size: 1.4rem;
