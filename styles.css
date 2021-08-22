@@ -367,7 +367,7 @@ main {
 .main-plans-container {
   inline-size: 100%;
   min-inline-size: 32rem;
-  padding-block-end: 7rem;
+  padding-block-end: 6rem;
   text-align: center;
 }
 
@@ -488,4 +488,42 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.footer {
+  display: flex;
+  inline-size: 100%;
+  block-size: 15rem;
+  padding: 4rem 2.5rem;
+  background-color: var(--bitcoinOrange);
+}
+
+.footer__rrss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 50%;
+}
+
+.footer__rrss ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style-type: none;
+}
+
+.footer__rrss li {
+  margin: 1rem 0;
+}
+
+.footer__rrss a {
+  text-decoration: none;
+  color: var(--justWhite);
+}
+
+.footer__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 50%;
 }
