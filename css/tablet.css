@@ -1,0 +1,35 @@
+.main-tables-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  inline-size: 44.8rem;
+  margin: 0 auto;
+  overflow-x: initial;
+}
+
+.main-currency-table, .main-currency-table--commissions {
+  margin: 0;
+}
+
+.main-currency-table {
+  inline-size: 100%;
+  min-inline-size: initial;
+}
+
+.product-cards__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+  inline-size: 93rem;
+  margin: 0 auto;
+}
+
+.product-details__card {
+  inline-size: 100%;
+  max-inline-size: initial;
+  margin: 0;
+}
+
+.plans-container--slider {
+  justify-content: center;
+}
