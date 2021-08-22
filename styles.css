@@ -408,7 +408,7 @@ main {
   position: relative;
   scroll-snap-align: center;
   inline-size: 70%;
-  min-inline-size: 23rem;
+  min-inline-size: 19rem;
   max-inline-size: 30rem;
   block-size: 25rem;
   margin: 5rem auto 0;
