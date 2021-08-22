@@ -377,7 +377,6 @@ main {
   block-size: auto;
   margin: 0 auto;
   margin-block-start: 6rem;
-  margin-block-end: 5rem;
 }
 
 .plans--title h2 {
@@ -395,8 +394,19 @@ main {
   color: #757575;
 }
 
+.plans-container--slider {
+  display: flex;
+  gap: .8rem;
+  block-size: 31.6rem;
+  padding: 0 2rem;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .plans-card {
   position: relative;
+  scroll-snap-align: center;
   inline-size: 70%;
   min-inline-size: 23rem;
   max-inline-size: 30rem;
